@@ -13,7 +13,7 @@
 
 #### R-type:    read from "register_file", send to ALU compute, store back to "register_file"
 ##### .add
-##### .substract
+##### .subtract
 ##### .AND  
 ##### .OR
 ##### .set on less than
