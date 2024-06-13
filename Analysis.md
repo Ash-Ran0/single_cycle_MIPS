@@ -75,9 +75,9 @@ reg_data:   0000002c     -      00000014        =   00000018
 
 JUMP:
                   |     |     |      |     |      |   
-08000003    0000_1000_0000_0000_0000_0000_0000_0100     j 'absolute address'
+08000004    0000_1000_0000_0000_0000_0000_0000_0100     j 'absolute address'
 jump(000010), address(26'h4)
-
+next: instruction: idx[4] -> idx[5] -> idx[6] -> idx[4] -> idx[5] -> idx[6] ... forever
 
 </code></pre>
 
